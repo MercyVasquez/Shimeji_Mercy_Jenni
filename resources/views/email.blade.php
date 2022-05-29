@@ -13,9 +13,9 @@
 <body>
       <div class="login-container">
           <div class="login-info-container">
-            <h1 class="title">Entra aqui</h1>
+            <h1 class="title">Contacto aqui</h1>
 
-            <p>o</p>
+            <p>Cuentanos tus dudas</p>
             <form class="inputs-container" action="{{route('composeEmail')}}" method="post" enctype="multipart/form-data">
             @csrf
 
@@ -34,7 +34,7 @@
 
 
                 <input type="submit" class="btn btn-success" value="Send-Email">
-                <p>Ya tienes una cuenta? <span class="span">Click aqui</span></p>
+                <p>No tienes dudas? <span class="span">Click aqui</span></p>
             </form>
           </div>
           <img class="image-container" src="image/contact.jpg" alt="">

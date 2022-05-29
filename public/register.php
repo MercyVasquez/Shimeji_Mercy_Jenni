@@ -15,7 +15,7 @@ if($pass==$rpass){
         echo '<script language="javascript">alert("Atencion, ya existe el mail designado para un usuario, verifique sus datos");</script> ';
         // si existe no entra
     }else{
-   $query ="INSERT INTO `user_shimeji` VALUES(id, '$name', '$gmail', '$pass',rol)"; // crea un usuario
+   $query ="INSERT INTO `user_shimeji` VALUES(id, '$name', '$gmail', '$pass','User')"; // crea un usuario
     mysqli_query($con, $query) or die(mysqli_error($con));
     echo '<script language="javascript">alert("Usuario guardado con éxito");</script> '; 
     echo "<script>location.href='Login'</script>";
