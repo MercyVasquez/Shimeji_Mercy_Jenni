@@ -8,7 +8,7 @@ $precio = $_POST['precio'];
 
 
 require("connect.php");
-$checkemail= $con->query("SELECT * from `mangas` WHERE nombre='$name' AND volumen='$volum' AND editorial='$edito'"); //revisa si el registro existe
+$checkemail= $con->query("SELECT * from `manga` WHERE nombre='$name' AND volumen='$volum' AND editorial='$edito'"); //revisa si el registro existe
 foreach($checkemail as $check_mail) {}
 
 

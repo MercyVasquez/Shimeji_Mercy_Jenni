@@ -46,6 +46,12 @@ Route::get('/Login', function () {
  Route::get('/Inicio', function () {
     return view('inicio');
  }); 
+ Route::get('/Admin', function () {
+    return view('inicioAdmin');
+ }); 
+ Route::get('/pago', function () {
+    return view('pago');
+ }); 
 
  Route::get('/Carrito', function () {
     return view('Carrito');

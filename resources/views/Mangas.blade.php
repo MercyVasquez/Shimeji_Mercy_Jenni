@@ -1,7 +1,7 @@
 <?php
 require("connect.php");
 
-$consulta = "SELECT * FROM mangas";
+$consulta = "SELECT * FROM manga";
 $query = mysqli_query($con,$consulta);
 $array = mysqli_fetch_array($query);
 ?>
